@@ -64,7 +64,7 @@ methodDict = {
 }
 
 def handleScrum():
-    print("You have chosen Scrum!")
+    print_d("You have chosen Scrum!")
     time.sleep(1)
     print("Overview: Scrum is an agile framework for managing complex projects. It emphasizes teamwork, accountability, and iterative progress.")
     time.sleep(2)
@@ -76,27 +76,83 @@ def handleScrum():
     time.sleep(2)
 
     ## Now give the player a real world example
+    print_d("Roles in Scrum include:\n- **Scrum Master:** Facilitates the process and resolves impediments.\n- **Product Owner:** Represents the stakeholders and prioritizes the backlog.\n- **Development Team:** A cross-functional team that delivers the product increments.")
+    time.sleep(2)
+    
+    print_d("Your coding task: Implement a simple to-do list feature where users can add, remove, and view tasks.")
     
 
 def handleXP():
-    print("You have chosen the XP!")
-
-    ## Now give the player a real world example
+    print_d("You have chosen XP (Extreme Programming)!")
+    time.sleep(1)
+    print("Overview: XP is an agile software development framework that emphasizes technical excellence and frequent releases.")
+    time.sleep(2)
+    print("**Strengths:**\n- Encourages feedback and adaptability\n- Focuses on high-quality code\n- Engages customers frequently")
+    time.sleep(2)
+    print("**Weaknesses:**\n- Can be challenging to implement without a strong team\n- Requires strong discipline and commitment")
+    time.sleep(2)
+    print("**History:**\n- Introduced by Kent Beck in the late 1990s.")
+    time.sleep(2)
+    
+    print_d("Roles in XP include:\n- **Coach:** Guides the team in XP practices.\n- **Customer:** Provides requirements and feedback.\n- **Developers:** Write the code and work closely with the customer.")
+    time.sleep(2)
+    
+    print_d("Your coding task: Create a simple unit test suite for a calculator application.")
+    
 
 def handleSpotify():
-    print("You have chosen Spotify Agile!")
-
-    ## Now give the player a real world example
+    print_d("You have chosen Spotify Agile!")
+    time.sleep(1)
+    print("Overview: This model promotes autonomy and alignment among teams (squads) while maintaining a cohesive vision.")
+    time.sleep(2)
+    print("**Strengths:**\n- Fosters team ownership\n- Supports innovation and experimentation\n- Balances autonomy with coordination")
+    time.sleep(2)
+    print("**Weaknesses:**\n- May lead to silos if not managed well\n- Requires strong leadership for alignment")
+    time.sleep(2)
+    print("**History:**\n- Developed by Spotify, the model gained popularity for its unique team structure.")
+    time.sleep(2)
+    
+    print_d("Roles in Spotify Agile include:\n- **Squad Lead:** Oversees the squad and aligns with company goals.\n- **Product Owner:** Manages the backlog and prioritizes tasks.\n- **Chapter Lead:** Ensures skill development within specific areas.")
+    time.sleep(2)
+    
+    print_d("Your coding task: Build a feature that allows users to create and manage playlists in a music application.")
+    
 
 def handleKanban():
-    print("You have chosen Kanban!")
+    print_d("You have chosen Kanban!")
+    time.sleep(1)
+    print("Overview: Kanban focuses on visualizing work, limiting work in progress, and optimizing flow.")
+    time.sleep(2)
+    print("**Strengths:**\n- Promotes visibility of work\n- Helps identify bottlenecks\n- Flexible and easy to implement")
+    time.sleep(2)
+    print("**Weaknesses:**\n- Can be less structured than other methodologies\n- Requires continuous monitoring")
+    time.sleep(2)
+    print("**History:**\n- Originated in manufacturing, developed by Taiichi Ohno at Toyota.")
+    time.sleep(2)
+    
+    print_d("Roles in Kanban include:\n- **Service Delivery Manager:** Ensures that the team delivers value.\n- **Team Members:** Responsible for completing tasks and managing their workflow.")
+    time.sleep(2)
+    
+    print_d("Your coding task: Create a Kanban board where tasks can be moved between different stages (To Do, In Progress, Done).")
 
-    ## Now give the player a real world example
 
 def handleLean():
-    print("You have chosen Lean!")
+    print_d("You have chosen Lean!")
+    time.sleep(1)
+    print("Overview: Lean software development focuses on optimizing efficiency and eliminating waste.")
+    time.sleep(2)
+    print("**Strengths:**\n- Increases efficiency\n- Reduces waste\n- Promotes continuous improvement")
+    time.sleep(2)
+    print("**Weaknesses:**\n- May require a culture shift\n- Can be misunderstood as a cost-cutting measure")
+    time.sleep(2)
+    print("**History:**\n- Inspired by Lean manufacturing principles.")
+    time.sleep(2)
+    
+    print_d("Roles in Lean include:\n- **Lean Leader:** Guides the team towards efficiency.\n- **Team Members:** Contribute to process improvement and efficiency.")
+    time.sleep(2)
+    
+    print_d("Your coding task: Develop a feature that tracks and visualizes process efficiency over time.")
 
-    ## Now give the player a real world example
 
 
 ### Check if the choice is valid
